@@ -52,6 +52,37 @@ SOFTWARE.
 - If you find any <font color='red'>incorrect</font> / <font color='red'>inappropriate</font> / <font color='red'>outdated</font> content, please kindly consider opening an issue or a PR. 
 - We would greatly appreciate your contribution to this list, and you will appear in the [contributors✨](#contributors-)!
 
+# Content
+- [About](#about)
+- [Dataset](#datasets)
+- [Survey & Benchmark](#survey-and-benchmark)
+    - [Survey](#survey)
+    - [Benchmark](#benchmark)
+- [Encrypted Traffic Analysis](#encrypted-traffic-analysis)
+    - [Encrypted Traffic Classification](#encrypted-traffic-classification)
+        - [Applied Pre-training/LLMs](#applied-pre-trainingllms)
+        - [Applied ML/DL](#applied-mldl)
+    - [Network Traffic Simulation](#network-traffic-simulation)
+        - [Applied Pre-training/LLMs](#applied-pre-trainingllms)
+        - [Applied ML/DL](#applied-mldl)
+    - [Network Intrusion Detection](#network-intrusion-detection)
+        - [General Threat Detection](#general-threat-detection)
+        - [Malware/C2 Traffic Detection](#malwarec2-traffic-detection)
+        - [IoT and Scenario-Specific Detection](#iot-and-scenario-specific-detection)
+        - [Black/Grey Market Activity Detection](#blackgrey-market-activity-detection)
+    - [WFP and AFP](#wfp-and-afp)
+        - [Website Fingerprinting](#website-fingerprinting)
+        - [App Fingerprinting](#app-fingerprinting)
+    - [Robustness](#robustness)
+    - [Online Methods](#online-methods)
+- [Measurement](#measurement)
+- [Research Groups](#research-groups)
+- [Blogs](#blogs)
+- [Libraries and Frameworks](#tool-libraries-and-frameworks)
+<!--
+- [Ethereum](#ethereum)
+-->
+
 # About
 This repository offers a curated collection of research and development resources in the field of encrypted traffic analysis, with an emphasis on representative studies, datasets, and notable research groups.
 <!-- This is a current list of resources related to the research and development of encrypted traffic analysis. We comb the field for relevant representative work and related resources, and pay more attention to typical studies and research teams.-->
