@@ -1,8 +1,7 @@
-# ETA-Resource-Imitation
-The repository is for practising the review construction Flow
+# IPv6-Measurement-Resource
 
 <!--
-Copyright (c) 2025 Flynn
+Copyright (c) 2026 Flynn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,8 +28,8 @@ SOFTWARE.
 </h3>
 
 <h1 align="center">
-    <p>Encrypted Network Traffic Analysis Resources</p>
-    <p>加密流量分析相关研究资源汇总</p>
+    <p>IPv6 Measurement Resources</p>
+    <p>IPv6网络测量相关研究资源汇总</p>
 </h1>
 
 <p align="center">
@@ -84,60 +83,31 @@ SOFTWARE.
 -->
 
 # About
-This repository offers a curated collection of research and development resources in the field of encrypted traffic analysis, with an emphasis on representative studies, datasets, and notable research groups.
-<!-- This is a current list of resources related to the research and development of encrypted traffic analysis. We comb the field for relevant representative work and related resources, and pay more attention to typical studies and research teams.-->
+A curated knowledge base for IPv6 Network Measurement, specifically emphasizing target generation strategies, active security auditing, benchmark datasets, and leading research laboratories.
+
+
 
 # Datasets
-| Dataset| Description | Year |  Status  |
-|--------|-------------|------|----------|
-| [Canadian Institute for Cybersecurity Datasets](https://www.unb.ca/cic/datasets/) | IoT, LLM, DNS, IDS, DoS, Darknet, Tor, VPN, Botnet, Malware | – | 🟢&nbsp;Regularly |
-| [ANT Datasets](https://ant.isi.edu/datasets/index.html) | Botnet, IoT, DNS, IP Geolocation | – | 🟢&nbsp;Regularly |
-| [Information Security and Object Technology Research Lab Datasets](https://onlineacademiccommunity.uvic.ca/isot/datasets/) | IoT, Botnet, Cloud Security | – | 🟢&nbsp;Regularly |
-| [MobileTraffic](https://github.com/Abby-ZS/NUDT_MobileTraffic) | 300+ Mobile Apps | 2024 | 🔵&nbsp;New |
-| [Network Multiflow Fingerprinting Datasets](https://github.com/shashadehuajiang/trace_classifier) | UAV, IoT Device ID, ISD, KWS, SWF | 2023 | 🟡&nbsp;No updates |
-| [Itc-Net-Blend-60](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4661706) | Android Apps in Diverse Environments | 2023 | 🟡&nbsp;No updates |
-| [AnonProxy2023](https://github.com/MrRobotsAA/AnonProxy2023-Dataset) | Anonymous, Proxy, VPN | 2023 | 🟡&nbsp;No updates |
-| [CSTNET-TLS 1.3](https://github.com/linwhitehat/ET-BERT/tree/main/datasets/CSTNET-TLS%201.3) | TLS 1.3 Services | 2022 | 🟡&nbsp;No updates |
-| [LFETT2021 Dataset](https://github.com/HoneyPotter-Gzy/LFETT2021-dataset) | Tunnel, Proxy, VPN | 2021 | 🟡&nbsp;No updates |
-| [DataCon2021-Encrypted Proxy](https://datacon.qianxin.com/opendata/openpage?resourcesId=10) | Proxy, VPN | 2021 | 🟡&nbsp;No updates |
-| [Malware Capture Facility Project](https://www.stratosphereips.org/datasets-overview) | CTU, IoT, Malware, Botnet | 2020 | 🟡&nbsp;No updates |
-| [Cross-Platform](https://recon.meddle.mobi/cross-market.html) | iOS and Android Apps | 2019 | 🟡&nbsp;No updates |
-| [Network-based Intrusion Detection](https://www.sciencedirect.com/science/article/pii/S016740481930118X) | AWID, Botnet, CIC DoS, CTU, DARPA | 2019 | 🟡&nbsp;No&nbsp;updates |
-| [Wangknn-dataset](https://github.com/kdsec/wangknn-dataset) | Tor, Websites | 2018 | 🟡&nbsp;No updates |
-| [DLWF](https://github.com/DistriNet/DLWF) | Tor, Websites, Concept Drift, Open World | 2018 | 🟡&nbsp;No updates |
-| [Network-Flow-of-QUIC](https://drive.google.com/drive/folders/1cwHhzvaQbi-ap8yfrj2vHyPmUTQhaYOj) | QUIC Services | 2017 | 🟡&nbsp;No updates |
 
-<details>
-<summary>
-    Datasets for Challenging Tasks
-</summary>
+| Dataset | Description | Source / Link | Status |
+| --- | --- | --- | --- |
+| **IPv6 Hitlist** | **[Core]** The standard active IPv6 address list (Gasser et al.) | [IPv6 Hitlist Service](https://ipv6hitlist.github.io/) | 🟢 Daily |
+| **Censys Certs** | IPv6 hosts extracted from X.509 Certificates | [Censys Data](https://docs.censys.com/docs/research-access-to-censys-data) | 🟢 Regularly |
+| **Rapid7 FDNS** | Project Sonar: Forward DNS (Any & AAAA records) | [Rapid7 Open Data](https://opendata.rapid7.com/) | 🟢 Regularly |
+| **CAIDA DNS Names** | IPv6 DNS Names (often part of ITDK or specific DNS datasets) | [CAIDA Datasets](https://www.caida.org/catalog/datasets/internet-topology-data-kit/release-2025-03/) | 🟢 Regularly |
+| **CAIDA Ark (Topology)** | Global traceroute data collected via **Scamper** probes (The standard source for topology) | [CAIDA Archipelago](https://www.caida.org/projects/ark/) | 🟢 Regularly |
+| **Tranco** | A Research-Oriented Top Sites Ranking (Hardened against manipulation) | [Tranco List](https://tranco-list.eu/) | 🟢 Daily |
+| **Majestic Million** | Top 1M domains based on backlink analysis | [Majestic Million](https://majestic.com/reports/majestic-million) | 🟢 Daily |
+| **Cisco Umbrella** | Top 1M domains based on DNS usage (Note: Public list policy changes often) | [Cisco Umbrella](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) | 🟡 Variable |
+| **Alexa Top 1 Million** | **[Retired]** Web traffic ranking (Discontinued by Amazon in May 2022) | [Archived Versions](https://www.google.com/search?q=https://pypi.org/project/alexa-top-1m/) | 🔴 Retired |
 
-* [Canadian Institute for Cybersecurity Datasets](https://www.unb.ca/cic/datasets/) (IoT, LLM, DNS, IDS, DoS, Darknet, Tor, VPN, Botnet, Malware)(Regularly updated)
-* [ANT Datasets](https://ant.isi.edu/datasets/index.html) (Botnet, IoT, DNS, IP Geolocation)(Regularly updated)
-* [Information Security and Object Technology Research Lab Datasets](https://onlineacademiccommunity.uvic.ca/isot/datasets/) (IoT, Botnet, Cloud Security)(Regularly updated)
-* [MobileTraffic](https://github.com/Abby-ZS/NUDT_MobileTraffic) (300+ Mobile Apps)(2024)
-* [Network Multiflow Fingerprinting Datasets](https://github.com/shashadehuajiang/trace_classifier) (User Activities (UAV), IoT Device Identification (IDI), Intrusion Detection (ISD), Keyword Searching (KWS), Shadowsocks Website 
-Fingerprinting (SWF))(2023)
-* [Itc-Net-Blend-60](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4661706) (Android applications in Diverse Environments)(2023)
-* [AnonProxy2023](https://github.com/MrRobotsAA/AnonProxy2023-Dataset) (Anonymous, Proxy, VPN)(2023)
-* [CSTNET-TLS 1.3](https://drive.google.com/drive/folders/1JSsYmevkxQFanoKOi_i1ooA6pH3s9sDr?usp=sharing) (TLS 1.3 services)(2022)
-* [LFETT2021 Dataset](https://github.com/HoneyPotter-Gzy/LFETT2021-dataset) (Tunnel, Proxy, VPN)(2021)
-* [DataCon2021-Encrypted Proxy](https://datacon.qianxin.com/opendata/openpage?resourcesId=10) (Proxy, VPN)(2021)
-* [Malware Capture Facility Project](https://www.stratosphereips.org/datasets-overview) (CTU, IoT, Malware, Botnet)(2020)
-* [Cross-Platform](https://recon.meddle.mobi/cross-market.html) (iOS and Android Apps)(2019)
-* [Network-based Intrusion Detection](https://www.sciencedirect.com/science/article/pii/S016740481930118X) (AWID, Botnet, CIC DoS, CICIDS, CIDDS, CTU, DARPA, ISCX, IRSC)(2019)
-* [wangknn-dataset](https://github.com/kdsec/wangknn-dataset) (Tor, Websites)(2018)
-* [DLWF](https://github.com/DistriNet/DLWF) (Tor, Websites, Concept Drift, Open World)(2018)
-* [Network-Flow-of-QUIC](https://drive.google.com/drive/folders/1cwHhzvaQbi-ap8yfrj2vHyPmUTQhaYOj) (QUIC services)(2017)
-</details>
+# Tools
 
-<details>
-<summary>
-    Network Benchmark
-</summary>
-    
-* [NetBench: A Large-Scale and Comprehensive Network Traffic Benchmark Dataset for Foundation Models](https://arxiv.org/abs/2403.10319). [[Data]](https://github.com/WM-JayLab/NetBench)
-</details>
+| Tool | Description | Language | Link |
+| --- | --- | --- | --- |
+| **Scamper** | High-performance active measurement tool (ping, traceroute, etc.), used by CAIDA. | C | [Website](https://www.caida.org/catalog/software/scamper/) |
+| **ZMap** | Fast single-packet network scanner. | C | [GitHub](https://github.com/zmap/zmap) |
+| **ZDNS** | High-speed DNS lookup utility. | Go | [GitHub](https://github.com/zmap/zdns) 
 
 # Survey and Benchmark
 ## Survey
