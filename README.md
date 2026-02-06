@@ -89,25 +89,34 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 
 # Datasets
 
-| Dataset | Description | Source / Link | Status |
-| --- | --- | --- | --- |
-| **IPv6 Hitlist** | **[Core]** The standard active IPv6 address list (Gasser et al.) | [IPv6 Hitlist Service](https://ipv6hitlist.github.io/) | 🟢 Daily |
-| **Censys Certs** | IPv6 hosts extracted from X.509 Certificates | [Censys Data](https://docs.censys.com/docs/research-access-to-censys-data) | 🟢 Regularly |
-| **Rapid7 FDNS** | Project Sonar: Forward DNS (Any & AAAA records) | [Rapid7 Open Data](https://opendata.rapid7.com/) | 🟢 Regularly |
-| **CAIDA DNS Names** | IPv6 DNS Names (often part of ITDK or specific DNS datasets) | [CAIDA Datasets](https://www.caida.org/catalog/datasets/internet-topology-data-kit/release-2025-03/) | 🟢 Regularly |
-| **CAIDA Ark (Topology)** | Global traceroute data collected via **Scamper** probes (The standard source for topology) | [CAIDA Archipelago](https://www.caida.org/projects/ark/) | 🟢 Regularly |
-| **Tranco** | A Research-Oriented Top Sites Ranking (Hardened against manipulation) | [Tranco List](https://tranco-list.eu/) | 🟢 Daily |
-| **Majestic Million** | Top 1M domains based on backlink analysis | [Majestic Million](https://majestic.com/reports/majestic-million) | 🟢 Daily |
-| **Cisco Umbrella** | Top 1M domains based on DNS usage (Note: Public list policy changes often) | [Cisco Umbrella](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) | 🟡 Variable |
-| **Alexa Top 1 Million** | **[Retired]** Web traffic ranking (Discontinued by Amazon in May 2022) | [Archived Versions](https://www.google.com/search?q=https://pypi.org/project/alexa-top-1m/) | 🔴 Retired |
+| Dataset | Category | Description | Source / Link | Status |
+| --- | --- | --- | --- | --- |
+| **IPv6 Hitlist** | **Core Seeds** | The standard active IPv6 address list (Gasser et al.). The primary baseline for liveness. | [IPv6 Hitlist](https://ipv6hitlist.github.io/) | 🟢 Daily |
+| **Rapid7 FDNS** | **Core Seeds** | **(Project Sonar)** Forward DNS AAAA records. Massive source of active domains mapped to IPv6. | [Rapid7 Open Data](https://opendata.rapid7.com/) | 🟢 Regularly |
+| **CAIDA Ark** | **Topology** | **(Formerly "Scamper")** Global traceroute data. Essential for verifying connectivity and path analysis. | [CAIDA Archipelago](https://www.caida.org/projects/ark/) | 🟢 Regularly |
+| **CAIDA DNS Names** | **Topology** | IPv6 hostnames derived from active traceroutes (Reverse DNS). Useful for identifying infrastructure roles. | [CAIDA Catalog](https://www.google.com/search?q=https://www.caida.org/catalog/datasets/ipv6_dns_names_dataset/) | 🟢 Req. Access |
+| **Censys Certs** | **Domains** | IPv6-ready domains extracted from X.509 Certificates (CT Logs). Requires BigQuery access. | [Censys Research](https://search.censys.io/data) | 🟡 Application |
+| **Routeviews Prefix** | **Metadata** | **(AS Mappings)** Maps IP prefixes to Autonomous Systems (AS). Used for network-level aggregation. | [CAIDA / Routeviews](https://www.caida.org/catalog/datasets/routeviews-prefix2as/) | 🟢 Daily |
+| **Tranco** | **Rankings** | A research-oriented top sites ranking, hardened against manipulation. | [Tranco List](https://tranco-list.eu/) | 🟢 Daily |
+| **Majestic Million** | **Rankings** | Top 1M domains based on backlink analysis. | [Majestic](https://majestic.com/reports/majestic-million) | 🟢 Daily |
+| **Cisco Umbrella** | **Rankings** | Top 1M domains based on DNS usage. (Note: Access policy varies). | [Cisco Umbrella](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) | 🟡 Variable |
+| **Alexa Top 1M** | **Rankings** | **[Retired]** Historical web traffic ranking. Discontinued in May 2022. | [Archived](https://www.google.com/search?q=https://pypi.org/project/alexa-top-1m/) | 🔴 Retired |
+
+
+
 
 # Tools
 
-| Tool | Description | Language | Link |
+| Tool | Language | GitHub Repository | Description & Notes |
 | --- | --- | --- | --- |
-| **Scamper** | High-performance active measurement tool (ping, traceroute, etc.), used by CAIDA. | C | [Website](https://www.caida.org/catalog/software/scamper/) |
-| **ZMap** | Fast single-packet network scanner. | C | [GitHub](https://github.com/zmap/zmap) |
-| **ZDNS** | High-speed DNS lookup utility. | Go | [GitHub](https://github.com/zmap/zdns) 
+| **ZMap** | C | **[zmap/zmap](https://github.com/zmap/zmap)** | **[Standard]** ZMap v6 实际上已经合并进主分支了，不需要找单独的 ZMapv6 库。大多数发行版直接支持。 |
+| **Masscan** | C | **[robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)** | **[High-Speed]** 号称最快的异步端口扫描器。注意它的 IPv6 支持需要特定参数开启。 |
+| **Nmap** | C/C++ | **[nmap/nmap](https://github.com/nmap/nmap)** | **[Auditing]** 世界上最著名的扫描器。不仅是扫描，更重要的是它的 NSE 脚本引擎。 |
+| **Scamper** | C | **[CAIDA/scamper](https://www.caida.org/catalog/software/scamper/)** * | **[Topology]** CAIDA 的核心工具。*注：它主要通过 CAIDA 官网分发源码包，GitHub 上主要是镜像或非官方维护版。建议去官网下。* |
+| **Yarrp** | C++ | **[cmand/yarrp](https://github.com/cmand/yarrp)** | **[Trace]** "Yelling at Random Routers Progressively". 极速拓扑发现工具，CMAND 团队维护。 |
+| **XMap** | C | **[idealeer/xmap](https://github.com/idealeer/xmap)** | **[Research]** 基于 ZMap 改写，专门优化了 IPv6 探测效率。 |
+| **Scanv6** | **Go** | **[IPv6-Security/scanv6](https://github.com/IPv6-Security/scanv6)** | **[New]** 6Sense的**Golang Scanner**。它是 **6SENSE** 系统的一部分，支持“黑名单”和“反馈循环”。 |
+
 
 # Survey and Benchmark
 ## Survey
