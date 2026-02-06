@@ -119,15 +119,22 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 
 
 # Survey and Benchmark
-## Survey
-* [Machine Learning-Powered Encrypted Network Traffic Analysis: A Comprehensive Survey](https://ieeexplore.ieee.org/document/9896143). Meng Shen. `IEEE Communications Surveys & Tutorials 2023`.
-* [Graph Mining for Cybersecurity: A Survey](https://dl.acm.org/doi/10.1145/3610228). Bo Yan. `ACM Transactions on Knowledge Discovery from Data 2023`.
-* [Deep Learning for Encrypted Traffic Classification: An Overview](https://ieeexplore.ieee.org/document/8713803/). Shahbaz Rezaei. `IEEE Communications Magazine 2019`.
-* [Towards the Deployment of Machine Learning Solutions in Network Traffic Classification: A Systematic Survey](https://ieeexplore.ieee.org/document/8543584). Fannia Pacheco. `IEEE Communications Surveys & Tutorials 2019`.
-* [Deep Learning in Mobile and Wireless Networking: A Survey](https://ieeexplore.ieee.org/document/8666641). Chaoyun Zhang. `IEEE Communications Surveys & Tutorials 2019`.
 
-## Benchmark
-* [CTIBench: A Benchmark for Evaluating LLMs in Cyber Threat Intelligence](https://proceedings.neurips.cc/paper_files/paper/2024/file/5acd3c628aa1819fbf07c39ef73e7285-Paper-Datasets_and_Benchmarks_Track.pdf#:~:text=To%20bridge%20this%20gap%2C%20we,bench). Md Tanvirul Alam. `NeurIPS 2024`. [[Evaluation]](https://github.com/aiforsec/cti-bench) [[Dataset details]](https://huggingface.co/datasets/AI4Sec/cti-bench)
+## Survey
+
+### 1. IPv6 Measurement & Evaluation
+
+* [Target Acquired? Evaluating Target Generation Algorithms for IPv6](https://ieeexplore.ieee.org/document/10199073). P. Foremski. `IEEE INFOCOM 2023`. (针对目标生成算法的系统性评估)
+* [Seeds of Scanning: Exploring the Effects of Datasets, Methods, and Metrics on IPv6 Internet Scanning](https://dl.acm.org/doi/10.1145/3646547.3688449). Lion Steger. `ACM SIGCOMM 2024`. (对扫描方法论与评估指标的深度剖析)
+* [Unveiling IPv6 Scanning Dynamics: A Longitudinal Study Using Large Scale Proactive and Passive IPv6 Telescopes](https://dl.acm.org/doi/10.1145/3749221). Q. Lone. `ACM IMC 2024`. (关于IPv6扫描动态性的长期测量研究)
+* [Censys: A Map of Internet Hosts and Services](https://dl.acm.org/doi/10.1145/3718958.3754344). Liz Izhikevich. `ACM SIGCOMM 2024`. (互联网资产测量的工业级基准与系统架构)
+
+### 2. IPv6 Security & Protocol Optimization
+
+* [A Survey on IPv6 Security Threats and Defense Mechanisms](https://link.springer.com/chapter/10.1007/978-3-031-06794-5_47). S. J. Ma. `CANS 2022`. (IPv6 安全威胁与防御机制综述)
+* [IPv6 Routing Protocol for Low-Power and Lossy Networks Security Vulnerabilities and Mitigation Techniques: A Survey](https://dl.acm.org/doi/10.1145/3732776). K. Shaukat. `ACM Computing Surveys 2024`. (低功耗有损网络中 RPL 协议的安全性分析)
+* [IPv6 routing protocol enhancements over low-power and lossy networks for IoT applications: A systematic review](https://www.google.com/search?q=https://www.tandfonline.com/doi/abs/10.1080/13614568.2022.2131349). T. Al-Janabi. `New Review of Hypermedia and Multimedia 2022`. (IoT 场景下的 IPv6 路由增强技术综述)
+* [6TiSCH – IPv6 Enabled Open Stack IoT Network Formation: A Review](https://dl.acm.org/doi/10.1145/3536166). S. K. Singh. `ACM Computing Surveys 2022`. (IPv6 与 6TiSCH 协议栈网络构建综述)
 
 
 # Encrypted Traffic Analysis
