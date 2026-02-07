@@ -137,9 +137,17 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [6TiSCH – IPv6 Enabled Open Stack IoT Network Formation: A Review](https://dl.acm.org/doi/10.1145/3536166). S. K. Singh. `ACM Computing Surveys 2022`. (IPv6 与 6TiSCH 协议栈网络构建综述)
 
 
-# Encrypted Traffic Analysis
-## Encrypted Traffic Classification
-### Applied Pre-training/LLMs
+# IPv6 Network Measurement & Analysis
+## IPv6 Address Discovery & Topology
+### Algorithmic Categories
+#### Applied Reinforcement Learning
+
+#### Applied ML/Deep Learning
+#### Statistical & Density-based
+### Generation Paradigms
+#### Static Generation
+#### Dynamic Generation & Scanning
+
 #### CCF A
 * [Bottom Aggregating, Top Separating: An Aggregator and Separator Network for Encrypted Traffic Understanding](https://ieeexplore.ieee.org/abstract/document/10839404). Wei Peng. `TIFS 2025`. 
 * [MIETT: Multi-Instance Encrypted Traffic Transformer for Encrypted Traffic Classification](https://arxiv.org/abs/2412.15306). Xuyang Chen and Lu Han. `AAAI 2025`.  
@@ -156,7 +164,7 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [Listen to Minority: Encrypted Traffic Classification for Class Imbalance with Contrastive Pre-Training](https://ieeexplore.ieee.org/abstract/document/10287449). Xiang Li. `SECON 2023`. 
 
 
-### Applied ML/DL
+### Statistical & Probabilistic Models
 * [FlowMiner: A Powerful Model Based on Flow Correlation Mining for Encrypted Traffic Classification](). Hongbo Xu. `INFOCOM 2025`.
 * [DE-GNN: Dual embedding with graph neural network for fine-grained encrypted traffic classification](https://www.sciencedirect.com/science/article/pii/S1389128624002044). Xinbo Han. `Computer Networks 2024`.
 * [TFE-GNN: A Temporal Fusion Encoder Using Graph Neural Networks for Fine-grained Encrypted Trafic Classification](https://dl.acm.org/doi/abs/10.1145/3543507.3583227). Haozhen Zhang. `WWW 2023`. [[code]](https://github.com/ViktorAxelsen/TFE-GNN)
