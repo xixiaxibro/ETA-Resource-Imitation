@@ -141,7 +141,7 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 ## IPv6 Address Discovery & Topology
 ### Algorithmic Categories
 #### Applied Reinforcement Learning
-* [6Hit: A Reinforcement Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9488794). Bingnan Hou. `INFOCOM 2021`.
+* [6Hit: A Reinforcement Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9488794). Bingnan Hou. `INFOCOM 2021`.[[code]](https://github.com/hbn1987/IPv6Hit) 
 * [6Sense: Internet-Wide IPv6 Scanning and its Security Applications](https://www.usenix.org/conference/usenixsecurity24/presentation/williams). Grant Williams. `USENIX Security 2024`.
 #### Applied ML/Deep Learning
 
