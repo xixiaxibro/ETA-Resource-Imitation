@@ -141,46 +141,24 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 ## IPv6 Address Discovery & Topology
 ### Algorithmic Categories
 #### Applied Reinforcement Learning
-* [6Hit: A Reinforcement Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9488794). Bingnan Hou. `INFOCOM 2021`.[[code]](https://github.com/hbn1987/IPv6Hit) 
-* [6Sense: Internet-Wide IPv6 Scanning and its Security Applications](https://www.usenix.org/conference/usenixsecurity24/presentation/williams). Grant Williams. `USENIX Security 2024`.
+* [6Hit: A Reinforcement Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9488794). Bingnan Hou. `INFOCOM 2021`.[无源码] 
+* [6Sense: Internet-Wide IPv6 Scanning and its Security Applications](https://www.usenix.org/conference/usenixsecurity24/presentation/williams). Grant Williams. `USENIX Security 2024`.[[code]](https://github.com/IPv6-Security/6Sense) 
 #### Applied ML/Deep Learning
-
+* [6GAN: IPv6 Multi-Pattern Target Generation via Generative Adversarial Nets with Reinforcement Learning](https://dl.acm.org/doi/10.1109/INFOCOM42981.2021.9488912). Tianyu Cui.  `INFOCOM 2021`. [[code]](https://github.com/CuiTianyu961030/6GAN) 
+* [6GCVAE: Gated Convolutional Variational Autoencoder for IPv6 Target Generation](https://dl.acm.org/doi/10.1007/978-3-030-47426-3_47). Tianyu Cui. `PAKDD 2020`. [[code]](https://github.com/CuiTianyu961030/6GCVAE)
+* [6VecLM: Language Modeling in Vector Space for IPv6 Target Generation](https://dl.acm.org/doi/10.1007/978-3-030-67667-4_12). Tianyu Cui. `ECML PKDD 2020` [[code]](https://github.com/CuiTianyu961030/6VecLM)
+* [6Forest: An Ensemble Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9796925) Tao Yang. `INFOCOM 2022` [[code]](https://github.com/Lab-ANT/6Forest)
+* [6Graph: : A graph-theoretic approach to address pattern mining for Internet-wide IPv6 scanning](https://dl.acm.org/doi/10.1016/j.comnet.2021.108666). Tao Yang. `Computer Networks 2022`[[code]](https://github.com/Lab-ANT/6Graph)
 #### Statistical & Density-based
+* [Entropy (Entropy/IP)]().
+* [DET]().
+* [6Tree]().
+* [6Scan]().
 ### Generation Paradigms
 #### Static Generation
 #### Dynamic Generation & Scanning
 
-#### CCF A
-* [Bottom Aggregating, Top Separating: An Aggregator and Separator Network for Encrypted Traffic Understanding](https://ieeexplore.ieee.org/abstract/document/10839404). Wei Peng. `TIFS 2025`. 
-* [MIETT: Multi-Instance Encrypted Traffic Transformer for Encrypted Traffic Classification](https://arxiv.org/abs/2412.15306). Xuyang Chen and Lu Han. `AAAI 2025`.  
-* [TrafficFormer: An Efficient Pre-trained Model for Traffic Data](http://www.thucsnet.com/wp-content/papers/guangmeng_sp2025.pdf). Guangmeng Zhou. `S&P 2025`. [[code]](https://github.com/IDP-code/TrafficFormer) 
-* [Yet Another Traffic Classifier: A Masked Autoencoder Based Traffic Transformer with Multi-Level Flow Representation](https://ojs.aaai.org/index.php/AAAI/article/view/25674). Ruijie Zhao. `AAAI 2023`. [[code]](https://github.com/NSSL-SJTU/YaTC) 
-* [MT-FlowFormer: A Semi-Supervised Flow Transformer for Encrypted Traffic Classification](https://dl.acm.org/doi/10.1145/3534678.3539314). Ruijie Zhao. `KDD 2022`.  
-* [ET-BERT: A Contextualized Datagram Representation with Pre-training Transformers for Encrypted Traffic Classification](https://dl.acm.org/doi/abs/10.1145/3485447.3512217). Xinjie Lin. `WWW 2022`. [[code]] (https://github.com/linwhitehat/et-bert) [[Reproduce]](https://gitee.com/xxdxxdxxd/et-bert/blob/master/README.md) 
-#### CCF B
-* [Ptu: Pre-Trained Model for Network Traffic Understanding](https://ieeexplore.ieee.org/document/10858503). Lingfeng Peng. `ICNP 2024`. 
-* [NetMamba: Efficient Network Traffic Classification via Pre-training Unidirectional Mamba](https://arxiv.org/abs/2405.11449). Tongze Wang. `ICNP 2024`. [[code]](https://github.com/wangtz19/NetMamba) 
-* [CETP: A Novel Semi-Supervised Framework Based on Contrastive Pre-Training for Imbalanced Encrypted Traffic Classification](https://www.sciencedirect.com/science/article/abs/pii/S0167404824001949). Xinjie Lin. `Computers & Security 2024`. 
-* [A novel approach for application classification with encrypted traffic using BERT and packet headers](https://www.sciencedirect.com/science/article/pii/S1389128624005796). Jaehak Yu. `Computer Networks 2024`. 
-* [Flow-MAE: Leveraging Masked AutoEncoder for Accurate, Efficient and Robust Malicious Traffic Classification](https://dl.acm.org/doi/10.1145/3607199.3607206#core-collateral-purchase-access). Zijun Hang. `RAID 2023`. [[code]] (https://github.com/NLear/Flow-MAE) 
-* [Listen to Minority: Encrypted Traffic Classification for Class Imbalance with Contrastive Pre-Training](https://ieeexplore.ieee.org/abstract/document/10287449). Xiang Li. `SECON 2023`. 
 
-
-### Statistical & Probabilistic Models
-* [FlowMiner: A Powerful Model Based on Flow Correlation Mining for Encrypted Traffic Classification](). Hongbo Xu. `INFOCOM 2025`.
-* [DE-GNN: Dual embedding with graph neural network for fine-grained encrypted traffic classification](https://www.sciencedirect.com/science/article/pii/S1389128624002044). Xinbo Han. `Computer Networks 2024`.
-* [TFE-GNN: A Temporal Fusion Encoder Using Graph Neural Networks for Fine-grained Encrypted Trafic Classification](https://dl.acm.org/doi/abs/10.1145/3543507.3583227). Haozhen Zhang. `WWW 2023`. [[code]](https://github.com/ViktorAxelsen/TFE-GNN)
-* [An Input-Agnostic Hierarchical Deep Learning Framework for Traffic Fingerprinting](https://www.usenix.org/conference/usenixsecurity23/presentation/qu). Jian Qu. `USENIX Security 2023`. [[code]](https://github.com/shashadehuajiang/trace_classifier/tree/main)
-* [Packet Representation Learning for Traffic Classification](https://dl.acm.org/doi/10.1145/3534678.3539085). Xuying Meng. `KDD 2022`.
-* [Seeing Traffic Paths: Encrypted Traffic Classification With Path Signature Features](https://ieeexplore.ieee.org/document/9786755). Shijie Xu. `TIFS 2022`.
-* [A Novel Multimodal Deep Learning Framework for Encrypted Traffic Classification](https://ieeexplore.ieee.org/document/9931999). Peng Lin. `ToN 2022`.
-* [Enabling Efficient Flow Classification for ML-based Network Security Applications](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-2_24067_paper.pdf). Diogo Barradas. `NDSS 2021`. [[code]](https://github.com/dmbb/FlowLens)
-* [Accurate Decentralized Application Identification via Encrypted Traffic Analysis Using Graph Neural Networks](https://ieeexplore.ieee.org/document/9319399).  Meng Shen. `TIFS 2021`.
-* [Classifying encrypted traffic using adaptive fingerprints with multi-level attributes](https://link.springer.com/article/10.1007%2Fs11280-021-00940-0). Chang Liu. `WWW Journal 2021`.
-* [Fine-Grained Webpage Fingerprinting Using Only Packet Length Information of Encrypted Traffic](https://ieeexplore.ieee.org/document/9305740). Meng Shen. `TIFS 2020`.
-* [CETAnalytics: Comprehensive effective traffic information analytics for encrypted traffic classification](https://www.sciencedirect.com/science/article/pii/S1389128619309466) (Generalization). Cong Dong. `Computer Networks 2020`.
-* [FS-Net: A Flow Sequence Network For Encrypted Traffic Classification](https://ieeexplore.ieee.org/document/8737507). Chang Liu. `INFOCOM 2019`. [[code]](https://github.com/WSPTTH/FS-Net)
-* [MaMPF: Encrypted Traffic Classification Based on Multi-Attribute Markov Probability Fingerprints](https://ieeexplore.ieee.org/abstract/document/8624124).  Chang Liu. `IWQoS 2018`. [[code]](https://github.com/WSPTTH/MaMPF)
 
 ## Network Traffic Simulation
 ### Applied Pre-training/LLMs
