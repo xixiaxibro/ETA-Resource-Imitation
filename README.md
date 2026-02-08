@@ -144,7 +144,7 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [6Hit: A Reinforcement Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9488794). Bingnan Hou. `INFOCOM 2021`.[无源码] 
 * [6Sense: Internet-Wide IPv6 Scanning and its Security Applications](https://www.usenix.org/conference/usenixsecurity24/presentation/williams). Grant Williams. `USENIX Security 2024`.[[code]](https://github.com/IPv6-Security/6Sense) 
 #### Applied ML/Deep Learning
-* [IPv6 Prefix Target Generation through Pattern and Distribution Learning using Vision-Transformer and Guided-Diffusion](). Yaochen Ren. `INFOCOM 2025`.
+* [IPv6 Prefix Target Generation through Pattern and Distribution Learning using Vision-Transformer and Guided-Diffusion](https://ieeexplore.ieee.org/document/11044676). Yaochen Ren. `INFOCOM 2025`.[[code]](https://github.com/6ptg/6ptg)
 * [6GAN: IPv6 Multi-Pattern Target Generation via Generative Adversarial Nets with Reinforcement Learning](https://dl.acm.org/doi/10.1109/INFOCOM42981.2021.9488912). Tianyu Cui.  `INFOCOM 2021`. [[code]](https://github.com/CuiTianyu961030/6GAN) 
 * [6GCVAE: Gated Convolutional Variational Autoencoder for IPv6 Target Generation](https://dl.acm.org/doi/10.1007/978-3-030-47426-3_47). Tianyu Cui. `PAKDD 2020`. [[code]](https://github.com/CuiTianyu961030/6GCVAE)
 * [6VecLM: Language Modeling in Vector Space for IPv6 Target Generation](https://dl.acm.org/doi/10.1007/978-3-030-67667-4_12). Tianyu Cui. `ECML PKDD 2020` [[code]](https://github.com/CuiTianyu961030/6VecLM)
