@@ -154,13 +154,13 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [DET: Enabling Efficient Probing of IPv6 Active Addresses](https://ieeexplore.ieee.org/document/9698406). Guanglei Song. `IEEE/ACM Transactions on Networking 2022` [无源码]
 * [6Tree: : Efficient dynamic discovery of active addresses in the IPv6 address space](https://dl.acm.org/doi/10.1016/j.comnet.2019.03.010).Zhizhu Liu`Computer Networks 2019` [[code]](https://github.com/zhizhul/6tree)
 * [6Scan: A High-Efficiency Dynamic Internet-Wide IPv6 Scanner With Regional Encoding](https://ieeexplore.ieee.org/document/10012428).Bingnan Hou  `IEEE/ACM Transactions on Networking 2023` [[code]](https://github.com/hbn1987/6Scan)
-* [Search in the Expanse: Towards Active and Global IPv6 Hitlists](https://ieeexplore.ieee.org/document/10229089) Bingnan Hou `IEEE/ACM Transactions on Networking 2023` [无源码]
+* [Search in the Expanse: Towards Active and Global IPv6 Hitlists](https://ieeexplore.ieee.org/document/10229089). Bingnan Hou `IEEE/ACM Transactions on Networking 2023` [无源码]
 ### Generation Paradigms
 #### Static Generation
-* [Entropy (Entropy/IP)]().
-* [6GCVAE]().
-* [6VecLM]().
-* [6GAN]().
+* Entropy (Entropy/IP)
+* 6GCVAE
+* 6VecLM
+* 6GAN
 * 6Graph
 * 6Forest
 #### Dynamic Generation & Scanning
