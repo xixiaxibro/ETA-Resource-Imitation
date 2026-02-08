@@ -144,6 +144,7 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [6Hit: A Reinforcement Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9488794). Bingnan Hou. `INFOCOM 2021`.[无源码] 
 * [6Sense: Internet-Wide IPv6 Scanning and its Security Applications](https://www.usenix.org/conference/usenixsecurity24/presentation/williams). Grant Williams. `USENIX Security 2024`.[[code]](https://github.com/IPv6-Security/6Sense) 
 #### Applied ML/Deep Learning
+* [IPv6 Prefix Target Generation through Pattern and Distribution Learning using Vision-Transformer and Guided-Diffusion](). Yaochen Ren. `INFOCOM 2025`.
 * [6GAN: IPv6 Multi-Pattern Target Generation via Generative Adversarial Nets with Reinforcement Learning](https://dl.acm.org/doi/10.1109/INFOCOM42981.2021.9488912). Tianyu Cui.  `INFOCOM 2021`. [[code]](https://github.com/CuiTianyu961030/6GAN) 
 * [6GCVAE: Gated Convolutional Variational Autoencoder for IPv6 Target Generation](https://dl.acm.org/doi/10.1007/978-3-030-47426-3_47). Tianyu Cui. `PAKDD 2020`. [[code]](https://github.com/CuiTianyu961030/6GCVAE)
 * [6VecLM: Language Modeling in Vector Space for IPv6 Target Generation](https://dl.acm.org/doi/10.1007/978-3-030-67667-4_12). Tianyu Cui. `ECML PKDD 2020` [[code]](https://github.com/CuiTianyu961030/6VecLM)
@@ -151,7 +152,7 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [6Graph: : A graph-theoretic approach to address pattern mining for Internet-wide IPv6 scanning](https://dl.acm.org/doi/10.1016/j.comnet.2021.108666). Tao Yang. `Computer Networks 2022`[[code]](https://github.com/Lab-ANT/6Graph)
 #### Statistical & Density-based
 * [Entropy/IP: Uncovering Structure in IPv6 Addresses](https://www.entropy-ip.com/2016-v6structures.pdf). Paweł Foremski. `IMC 2016` [[code]](https://github.com/akamai/entropy-ip/)
-* [DET: Enabling Efficient Probing of IPv6 Active Addresses](https://ieeexplore.ieee.org/document/9698406). Guanglei Song. `IEEE/ACM Transactions on Networking 2022` [无源码]
+* [DET: Enabling Efficient Probing of IPv6 Active Addresses](https://ieeexplore.ieee.org/document/9698406). Guanglei Song. `IEEE/ACM Transactions on Networking 2022` [[code]](https://github.com/sixiangdeweicao/DET)
 * [6Tree: : Efficient dynamic discovery of active addresses in the IPv6 address space](https://dl.acm.org/doi/10.1016/j.comnet.2019.03.010).Zhizhu Liu`Computer Networks 2019` [[code]](https://github.com/zhizhul/6tree)
 * [6Scan: A High-Efficiency Dynamic Internet-Wide IPv6 Scanner With Regional Encoding](https://ieeexplore.ieee.org/document/10012428).Bingnan Hou  `IEEE/ACM Transactions on Networking 2023` [[code]](https://github.com/hbn1987/6Scan)
 * [Search in the Expanse: Towards Active and Global IPv6 Hitlists](https://ieeexplore.ieee.org/document/10229089). Bingnan Hou `IEEE/ACM Transactions on Networking 2023` [无源码]
@@ -168,6 +169,7 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * DET
 * 6Hit
 * 6Scan
+* 6Sense
 
 
 ## Network Traffic Simulation
