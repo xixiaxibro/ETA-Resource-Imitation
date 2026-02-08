@@ -150,14 +150,23 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [6Forest: An Ensemble Learning-based Approach to Target Generation for Internet-wide IPv6 Scanning](https://ieeexplore.ieee.org/document/9796925) Tao Yang. `INFOCOM 2022` [[code]](https://github.com/Lab-ANT/6Forest)
 * [6Graph: : A graph-theoretic approach to address pattern mining for Internet-wide IPv6 scanning](https://dl.acm.org/doi/10.1016/j.comnet.2021.108666). Tao Yang. `Computer Networks 2022`[[code]](https://github.com/Lab-ANT/6Graph)
 #### Statistical & Density-based
-* [Entropy (Entropy/IP)]().
-* [DET]().
+* [Entropy/IP: Uncovering Structure in IPv6 Addresses](https://www.entropy-ip.com/2016-v6structures.pdf). Paweł Foremski. `IMC 2016` [[code]](https://github.com/akamai/entropy-ip/)
+* [DET: Enabling Efficient Probing of IPv6 Active Addresses](https://ieeexplore.ieee.org/document/9698406). Guanglei Song. `IEEE/ACM Transactions on Networking 2022` [[code]]()
 * [6Tree]().
 * [6Scan]().
 ### Generation Paradigms
 #### Static Generation
+* [Entropy (Entropy/IP)]().
+* [6GCVAE]().
+* [6VecLM]().
+* [6GAN]().
+* 6Graph
+* 6Forest
 #### Dynamic Generation & Scanning
-
+* 6Tree
+* DET
+* 6Hit
+* 6Scan
 
 
 ## Network Traffic Simulation
