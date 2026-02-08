@@ -151,9 +151,10 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * [6Graph: : A graph-theoretic approach to address pattern mining for Internet-wide IPv6 scanning](https://dl.acm.org/doi/10.1016/j.comnet.2021.108666). Tao Yang. `Computer Networks 2022`[[code]](https://github.com/Lab-ANT/6Graph)
 #### Statistical & Density-based
 * [Entropy/IP: Uncovering Structure in IPv6 Addresses](https://www.entropy-ip.com/2016-v6structures.pdf). Paweł Foremski. `IMC 2016` [[code]](https://github.com/akamai/entropy-ip/)
-* [DET: Enabling Efficient Probing of IPv6 Active Addresses](https://ieeexplore.ieee.org/document/9698406). Guanglei Song. `IEEE/ACM Transactions on Networking 2022` [[code]]()
-* [6Tree]().
-* [6Scan]().
+* [DET: Enabling Efficient Probing of IPv6 Active Addresses](https://ieeexplore.ieee.org/document/9698406). Guanglei Song. `IEEE/ACM Transactions on Networking 2022` [无源码]
+* [6Tree: : Efficient dynamic discovery of active addresses in the IPv6 address space](https://dl.acm.org/doi/10.1016/j.comnet.2019.03.010).Zhizhu Liu`Computer Networks 2019` [[code]](https://github.com/zhizhul/6tree)
+* [6Scan: A High-Efficiency Dynamic Internet-Wide IPv6 Scanner With Regional Encoding](https://ieeexplore.ieee.org/document/10012428).Bingnan Hou  `IEEE/ACM Transactions on Networking 2023` [[code]](https://github.com/hbn1987/6Scan)
+* [Search in the Expanse: Towards Active and Global IPv6 Hitlists](https://ieeexplore.ieee.org/document/10229089) Bingnan Hou `IEEE/ACM Transactions on Networking 2023` [无源码]
 ### Generation Paradigms
 #### Static Generation
 * [Entropy (Entropy/IP)]().
