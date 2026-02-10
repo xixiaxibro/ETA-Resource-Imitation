@@ -161,6 +161,12 @@ A curated knowledge base for IPv6 Network Measurement, specifically emphasizing 
 * 6Scan
 * 6Sense
 
+## IPv6 Network Security
+* Where Have All the Firewalls Gone? Security Consequences of Residential IPv6 Transition
+* Don't Forget to Lock the Back Door!
+* Sibling Prefixes: Identifying Similarities in IPv4 and IPv6 Prefixes
+
+
 
 # Research Groups
 <details>
